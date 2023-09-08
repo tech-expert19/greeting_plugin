@@ -26,6 +26,6 @@ echo "greeting-plugin @ git+https://github.com/tech-expert19/greeting_plugin.git
 tutor images build openedx
 tutor local launch
 tutor local run lms ./manage.py lms greetings_plugin_init
-tutor local run lms ./manage.py lms makemigrations greetings_plugin
-tutor local run lms ./manage.py lms migrate greetings_plugin
+tutor local run lms ./manage.py lms makemigrations greeting_plugin
+tutor local run lms ./manage.py lms migrate greeting_plugin
 ```
